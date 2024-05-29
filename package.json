@@ -1,0 +1,14 @@
+{
+  "name": "foo-et-al",
+  "version": "1.0.0",
+  "description": "A parameterization of Foo et al, an implementation of Foo physics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Dong",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
