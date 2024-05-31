@@ -1,14 +1,27 @@
 {
   "name": "foo-et-al",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A parameterization of Foo et al, an implementation of Foo physics.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "url": "https://github.com/DD155/foo-et-al"
   },
-  "author": "Daniel Dong",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup"
+  },
+  "author": "DD155",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-typescript": "^7.24.6",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
   }
 }
