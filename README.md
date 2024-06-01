@@ -1,4 +1,4 @@
-This repository contains the software package for the calculation of the Foo et al. parameterization, an implementation of Foo physics. 
+This repository contains the [software package](https://www.npmjs.com/package/foo-et-al?activeTab=readme) for the calculation of the Foo et al. parameterization, an implementation of Foo physics. 
 This package serves as a base to be utilized and continuously supported by Foo scientists in the field for various numerical software. 
 Currently, the calculation function is able to find the volume of atmospheric Foo shapes.
 
