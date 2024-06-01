@@ -1,6 +1,6 @@
 {
   "name": "foo-et-al",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A parameterization of Foo et al, an implementation of Foo physics.",
   "repository": {
     "url": "https://github.com/DD155/foo-et-al"
